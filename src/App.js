@@ -42,7 +42,7 @@ let ProviderDiv = (props) =>
           <p>{ props.data.address_address }</p> 
 					<p>{ props.data.address_city }, { props.data.address_state } { props.data.address_zip }</p>
           <p>{ props.data.phone }</p>
-          <a href={props.data.website}>Website</a>
+          <a href={props.data.website}>Website test</a>
           <div className="row">
             <div className="col-sm-6">
               <h4>Services</h4>
