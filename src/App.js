@@ -18,11 +18,11 @@ class App extends React.Component {
 	render() {
     const {providers} = this.state;
 		return (
-      <div class="row">
-        <div class="col-sm-4">
+      <div className="row">
+        <div className="col-sm-4">
           <Filters />
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
           <ProviderList providers={providers}  />
         </div>
       </div>
