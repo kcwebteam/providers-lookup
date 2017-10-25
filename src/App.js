@@ -25,8 +25,8 @@ class App extends React.Component {
 let ProviderContainer = (props) =>
 	<div className='col-sm-12'>
 
-		{props.data.map((provider) =>
-				<ProviderDiv key={provider.kcbho_provider_network} data={provider} />)}
+		{props.data.map((provider, i) =>
+				<ProviderDiv key={i} data={provider} />)}
 
 	</div>; 
 
